@@ -1,0 +1,18 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="block"></div>
+        <div id="example" data-anijs="if: load, on: window, do: fadeInUp animated, after: removeAnim"></div>
+        <div id="block" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal, after: removeAnim"></div>
+    </div>
+    
+    <script src="js/lottie.min.js" type="text/javascript"></script>
+    <script src="js/anijs-min.js" type="text/javascript"></script>
+    <script src="js/anijs-helper-scrollreveal-min.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
