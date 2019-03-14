@@ -1,7 +1,7 @@
 lottie.loadAnimation({
     container: document.getElementById('example'),
     renderer: 'svg',
-    loop: true,
+    loop: false,
     autoplay: true,
     path: 'data/example.json'
 })

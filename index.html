@@ -3,12 +3,13 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 <body>
     <div id="wrapper">
         <div id="block"></div>
-        <div  data-anijs="if: load, on: window, do: fadeInUp animated, after: removeAnim">
-            <div id="example"></div>
+        <div id="example"></div>
+        <div  data-anijs="if: load, on: window, do: fadeInUp animated, after: holdAnimClass">
             <div id="block"></div>
         </div>
     </div>
