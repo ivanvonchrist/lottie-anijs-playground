@@ -9,10 +9,10 @@
 <body>
     <div id="wrapper" data-anijs="if: load, on: window, do: fadeIn animated">
         <div id="header"><h1 class="lot">Lottie</h1> + <h1 class="ani">AniJS</h1> Playground</div>
-        <a href="index.html" data-anijs="if: click, do: fadeOut animated, to: body, before: offRedirection, after: doRedirection">Back to Index</a>
+        <a href="page.html" data-anijs="if: click, do: fadeOut animated, to: body, before: offRedirection, after: doRedirection">Next Page</a>
         <div id="anims">
             <div id="example"></div>
-            <div id="example2" data-anijs="if: load, on: window, do: fadeInUp animated"></div>
+            <div id="example2"></div>
         </div>
         <div class="block b1" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal, after: holdAnimClass"></div>
         <div class="block b2" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal, after: holdAnimClass"></div>
@@ -22,12 +22,12 @@
         <div id="footer"></div>
     </div>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/lottie.min.js" type="text/javascript"></script>
     <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script> 
     <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
     <script src="js/anijs-helper-scrollreveal-min.js" type="text/javascript"></script>
     <script src="js/index.js" type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/redirection.js" type="text/javascript"></script>
 </body>
 </html>
